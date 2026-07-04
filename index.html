@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Catalog</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A visual catalog of all my books!">
+        <meta name="author" content="PianoMan0">
+        <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+        <style>
+            body {
+                background-color: aquamarine;
+            }
+        </style>
+    </head>
+    <body>
+        
+<a-scene>
+      <a-text font="kelsonsans" value="Marvel Encyclopedia" width="6" position="-2.89 0.25 -2.5" rotation="0 15 0"></a-text>
+      <a-box src="https://cdn.hackclub.com/019f2586-de43-7b80-8a2d-7220bd1d3b95/IMG_0555.jpeg" depth="0.1" height="1" width="0.75" position="-2.5 1 -2.5" rotation="0 15 0" template="src: #link" data-src="#Encyclopedia"></a-box>
+      <a-text font="kelsonsans" value="How the Universe Works" width="6" position="2.5 0.25 -2.5" rotation="0 -76 0"></a-text>
+      <a-text font="kelsonsans" value="All For One" width="6" position="0.15 0.25 3.0" rotation="0 -185 0"></a-text>
+       <a-assets>
+          <img id="Encyclopedia" alt="Encyclopedia" src="encyclopedia.jpeg" />
+       </a-assets>
+</a-scene>
+
+        <center></center>
+        <!-- <h1>Welcome to Catalog!</h1>
+        <p>A visual catalog of all my books! Because... why not</p>
+        <img src="https://user-cdn.hackclub-assets.com/019f2586-de43-7b80-8a2d-7220bd1d3b95/IMG_0555.jpeg" height="200" width="150">
+        <img src="https://cdn.hackclub.com/019f2590-e298-7c97-b792-1ecdd09b733d/IMG_0556.jpeg" height="200" width="150">
+        <img src="https://cdn.hackclub.com/019f2597-8523-705a-ac06-7a8fd5e1b42b/IMG_0557.jpeg" height="200" width="150">
+        <img src="https://cdn.hackclub.com/019f25a4-d6ab-7b18-96d0-1340a97d38ff/IMG_0559.jpeg" height="200" width="150">
+        <img src="https://cdn.hackclub.com/019f25a5-043a-728b-befd-7a3bebf1f5c3/IMG_0560.jpeg" height="200" width="150">
+        <img src="https://cdn.hackclub.com/019f25a8-e04a-7349-8a73-18e725bd63c2/IMG_0561.jpeg" height="200" width="150">
+        <img src="https://cdn.hackclub.com/019f25a9-08b8-78fd-a573-380705b104d9/IMG_0562.jpeg" height="200" width="150">
+        <img src="https://cdn.hackclub.com/019f25ab-9a32-7cec-bd22-9c7c0bbce52b/IMG_0563.jpeg" height="200" width="150">
+        <img src="https://cdn.hackclub.com/019f25ab-c55f-7e74-b4f1-59c4b160e260/IMG_0564.jpeg" height="200" width="150">
+    </body>
+</html>
